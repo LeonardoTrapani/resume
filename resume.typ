@@ -51,7 +51,8 @@
 - Early employee (\#8) at fast-growing startup (#link("https://datapizza.tech")[datapizza.tech]) that scaled to 80+ employees across multiple product lines and codebases
 - Led frontend technical strategy for Datapizza Jobs, making strategic technology decisions and implementing architecture using modern technologies including TanStack Router, Vite, Next.js, ShadCN, and Turborepo
 - Built and managed internal CRM system supporting 100,000+ candidate pipelines, driving key product decisions from conception to deployment
-- Mentored two junior developers, conducting code reviews and establishing development standards across frontend architecture
+- Migrated the repository from 5 different frontend repositories to a single monorepo with Turborepo, from idea proposal, to managing team migration, codebase architecture, planning, and managing development itself
+- Mentored two junior developers, conducting code reviews and establishing development frontend standards
 
 #work(
   title: "Freelance Developer & Technical Founder",
@@ -62,7 +63,7 @@
 - Transform startup and app ideas into working products, delivering full development lifecycle from planning and branding to UI/UX design, secure development, SEO, documentation, and hosting
 - Build production-ready applications for startup growth, adapting technology stack to project requirements and client needs
 - Built Nutrivetpet from zero to production: complete pet nutrition platform serving 3,000+ monthly paying users, earning equity stake for technical leadership and strategic vision
-- Developed mobile application for Sintesy medical systems featuring real-time socket connections to oxygen sensors for patient monitoring
+- Developed mobile application for Sintesy featuring real-time socket connections to oxygen sensors for oxygen monitoring
 
 == Education
 
@@ -130,4 +131,4 @@
 
 == Skills
 - *Programming Languages*: TypeScript, Go, Python, Bash
-- *Technologies*: AWS, Next.js, React, TanStack Ecosystem, Vite, Zod, GraphQL, tRPC, ShadCN, Tailwind CSS, PostgreSQL, Prisma, Node.js, Django, Linux/UNIX, Docker, Turborepo, Vercel...
+- *Technologies*: AWS, Next.js, React, TanStack Ecosystem, Vite, Zod, GraphQL, tRPC, Turborepo, Vercel, Vercel AI Sdk, ShadCN, Tailwind CSS, PostgreSQL, Prisma, Node.js, Django, Linux/UNIX, Docker...
