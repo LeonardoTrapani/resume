@@ -3,11 +3,11 @@
 // Put your personal information here, replacing mine
 #let name = "Leonardo Trapani"
 #let location = "Milan, Italy"
-#let email = "leo@trapani.sh"
-#let github = "github.com/leonardotrapani"
-#let linkedin = "linkedin.com/in/leonardotrapani"
+#let email = "ciao@leotrapani.com"
+#let github = "github.leotrapani.com"
+#let linkedin = "linkedin.leotrapani.com"
 #let phone = "+39 3393260759"
-#let personal-site = "trapani.sh"
+#let personal-site = "leotrapani.com"
 
 #show: resume.with(
   author: name,
@@ -76,34 +76,33 @@
 - Highly selective interdisciplinary program combining quantitative skills, data science, machine learning, and business strategy
 - Core focus: Mathematics, Statistics, Computer Science, Economics, Management, and Data-driven Decision Making
 
-#edu(
-  institution: "FAES Milano, Liceo Scientifico",
-  location: "Milan, Italy",
-  dates: dates-helper(start-date: "Sep 2020", end-date: "Jul 2025"),
-  degree: "High School Diploma, Scientific Track",
-)
-- International exchange program: Graduated from Canadian high school (Vancouver, BC, Aug 2023 - Jan 2024)
-
 == Projects
+
+#project(
+  name: "Rediredge",
+  role: "Creator",
+  dates: dates-helper(start-date: "2025", end-date: "Present"),
+  url: "rediredge.app",
+)
+- blazing-fast, self-hostable domain redirector combining a Go edge with a Next.js control plane
+- built stateless Go redirector with autocert-based HTTPS and sub-millisecond redis lookups
+- implemented outbox + sync worker system for reliable Postgres→Redis propagation
+- designed horizontally-scalable architecture separating control and data planes
+- added async analytics pipeline and billing integration via Polar
+- delivered one-command self-hosting through docker compose templates
+- focused on minimal ui with bullet-proof UX
 
 #project(
   name: "Hyprvoice",
   role: "Creator",
   dates: dates-helper(start-date: "2025", end-date: "Present"),
-  url: "github.com/leonardotrapani/hyprvoice",
+  url: "github.leotrapani.com/hyprvoice",
 )
 - Built voice-powered typing system for Wayland/Hyprland (arch linux) using Go, featuring real-time audio capture via PipeWire and AI transcription
 - Designed daemon architecture with state machine for audio recording, transcription, and text injection workflow
 - Implemented complex thread synchronization for parallel audio processing and transcription
+- Maintained the open source repo, solving issues and reviewing PRs
 
-#project(
-  name: "Juggle Content",
-  role: "Creator",
-  dates: dates-helper(start-date: "2025", end-date: "Present"),
-  url: "jugglecontent.trapani.sh",
-)
-- Built content management system that transforms single content pieces into 15+ platform-optimized variations using AI agents and Google APIs
-- Developed full-stack application with Next.js, TypeScript, Prisma, and PostgreSQL, featuring automated content repurposing workflows
 
 // == Extracurricular Activities
 
@@ -131,4 +130,4 @@
 
 == Skills
 - *Programming Languages*: TypeScript, Go, Python, Bash
-- *Technologies*: AWS, Next.js, React, TanStack Ecosystem, Vite, Zod, GraphQL, tRPC, Turborepo, Vercel, Vercel AI Sdk, ShadCN, Tailwind CSS, PostgreSQL, Prisma, Node.js, Django, Linux/UNIX, Docker...
+- *Technologies*: AWS, Next.js, React, TanStack Ecosystem, Vite, Zod, Docker, GraphQL, tRPC, Turborepo, Vercel, Vercel AI Sdk, ShadCN, Tailwind CSS, PostgreSQL, Prisma, Node.js, Django, Linux/UNIX, Docker...
